@@ -27,6 +27,9 @@ void test(int n) {
     timerFib.start();
     result = fibonacci(n);
     time = timerFib.end();
+    std::cout << "------------------------------------------------------------------" << std::endl;
+    std::cout << "Fibonacci number" << std::endl;
+    std::cout << "------------------------------------------------------------------" << std::endl;
     std::cout << "迭代方法" << std::endl;
     std::cout << "fibonacci(" << n << ") = " << result << std::endl;
     std::cout << "Time: " << time << "ms" << std::endl;
