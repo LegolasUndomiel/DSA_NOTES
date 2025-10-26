@@ -18,7 +18,9 @@ unsigned int lcs(const std::string &s1, const std::string &s2) {
 }
 
 namespace lcsTest {
-void test(const std::string &s1, const std::string &s2) {
+void test() {
+    std::string s1 = "educational";
+    std::string s2 = "advantage";
     unsigned int result = lcs(s1, s2);
     std::cout << "------------------------------------------------------------------" << std::endl;
     std::cout << "Longest Common Subsequence" << std::endl;

@@ -19,7 +19,8 @@ uint64 fibonacci(unsigned int n) {
 }
 
 namespace fibonacciTest {
-void test(int n) {
+void test() {
+    int n = 50;
     uint64 result;
     Timer timerFib;
     double time;

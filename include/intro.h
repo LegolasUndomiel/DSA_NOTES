@@ -2,14 +2,16 @@
 #define __INTRO_H__
 #pragma once
 
-#include <string>
-
 namespace fibonacciTest {
-void test(int n);
+void test();
 } // namespace fibonacciTest
 
 namespace lcsTest {
-void test(const std::string &s1, const std::string &s2);
+void test();
 } // namespace lcsTest
+
+namespace bubbleSortTest {
+void test();
+} // namespace bubbleSortTest
 
 #endif
